@@ -1,0 +1,1 @@
+# vidalcapital.com
