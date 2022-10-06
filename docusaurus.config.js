@@ -72,19 +72,20 @@ const config = {
     (
       {
       navbar: {
-        title: 'My Site',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Vidal Capital logo',
+          src: 'img/logo_company.svg',
+          srcDark: 'img/logo_company_r.svg',
+          width: '128px'
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
-            position: 'left',
+            position: 'right',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'right'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',

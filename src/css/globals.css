@@ -1,0 +1,23 @@
+html {
+    font-size: var(--theme-font-size-default);
+    color: var(--theme-color-black-base);
+}
+  
+body {
+    @include font-smoothing;
+    font-family: var(--theme-font-family);
+    position: relative;
+    overflow-x: hidden;
+    color: var(--theme-color-black-base);
+}
+  
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+  
+.img-center {
+    display: flex;
+    justify-content: center;
+    width: 100%,
+}

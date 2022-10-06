@@ -1,0 +1,111 @@
+
+@include font-face('Exo 2', '/fonts/Exo2-SemiBold', 600);
+@include font-face('Exo 2', '/fonts/Exo2-Medium', 500);
+@include font-face('Exo 2', '/fonts/Exo2-LightItalic', 300, italic);
+
+
+@include font-face('IBMPlexMono', '/fonts/IBMPlexMono-Medium', 500);
+@include font-face('IBMPlexSans', '/fonts/IBMPlexSans-Medium', 500);
+
+:root {
+
+	--theme-color-primary-light: #fff9c4;
+	--theme-color-primary-base: #fbc02d;
+	--theme-color-primary-dark: #f9a825;
+
+	--theme-color-black-light: #455a64;
+	--theme-color-black-base: #263238;
+	--theme-color-black-dark: #000000;
+
+	--theme-color-white-light: #ffffff;
+	--theme-color-white-base: #fafafa;
+	--theme-color-white-dark: #e0e0e0;
+
+	--theme-color-alert-light:  #ef9a9a;
+	--theme-color-alert-base: #e57373;
+	--theme-color-alert-dark: #ef5350;
+
+	--theme-color-alert-light: #b2c831;
+	--theme-color-alert-base:  #A0B42C;
+	--theme-color-alert-dark: #458C63;
+
+	--theme-color-highlight: #2632380f;
+
+
+	/* to review */
+	--global-colors-charade:  #282A36;
+	--global-colors-elephant: #0C3636;
+	--global-colors-cape:     #4B5555;
+	--global-colors-nevada:   #656F6F;
+	--global-colors-pewter:   #999C9C;
+	--global-colors-mandy:    #E84E4E;
+	--global-colors-picton:   #44AEDE;
+	--global-colors-chamois:  #F5DD64;
+	--global-colors-egg:      #F7EFC7;
+	--global-colors-cararra:  #F4F3F0;
+	--global-colors-sapling:  #DADDE1;
+	--global-colors-white:    #FFFFFF;
+
+	--global-colors-back0:    #fefcfe;
+	--global-colors-back1:  #F4F3F0;
+	--global-colors-back2:  #f4f0f3;
+
+	--global-shadow-elephant: rgba(0, 0, 0, 0.1);
+
+
+	/* docusaurus */
+	--ifm-color-primary: var(--theme-color-primary-base);
+	--ifm-color-primary-dark: var(--theme-color-primary-dark);
+	--ifm-color-primary-darker: var(--ifm-color-primary-dark);
+	--ifm-color-primary-darkest: var(--ifm-color-primary-dark);
+	--ifm-color-primary-light: var(--theme-color-primary-light);
+	--ifm-color-primary-lighter: var(--ifm-color-primary-light);
+	--ifm-color-primary-lightest: var(--ifm-color-primary-light);
+	--ifm-code-font-size: 95%;
+	--ifm-background-color: var(--theme-color-white-base);
+	--docusaurus-highlighted-code-line-bg: var(--theme-color-highlight);
+
+	--theme-font-family: 'Exo 2', sans-serif;
+	--theme-font-family-alternative: 'IBMPlexSans', sans-serif;
+	--theme-block-family-code: 'IBMPlexMono', monospace;
+
+	--theme-container-default: 1330px;
+	--theme-container-medium: 1094px;
+	--theme-container-small: 867px;
+	--theme-container-smaller: 768px;
+	--theme-container-tiny: 640px;
+
+	--theme-gutter: 25px;
+
+	--theme-font-size-small: 8px;
+	--theme-font-size-medium: 10px;
+	--theme-font-size-default: 14px;
+	--theme-font-size-large: 20px;
+	--theme-font-size-larger: 28px;
+	--theme-font-size-big: 38px;
+	--theme-font-size-huge: 50px;
+	--theme-font-size-enormous:64px;
+	--theme-font-size-gigantic: 80px;
+
+	--theme-mobile-nav-button-size: 40px;
+
+	--theme-border-radius: 6px;
+	
+	--theme-header-height: 80px;
+	--theme-sidebar-width: 300px;
+	--theme-docs-top-spacing: 30px;
+	--theme-container-spacing-default: 60px;
+	
+}
+
+[data-theme='dark'] {
+--ifm-color-primary: #ec407a;
+--ifm-color-primary-dark: #c48b9f;
+--ifm-color-primary-darker: #c48b9f;
+--ifm-color-primary-darkest: #c48b9f;
+--ifm-color-primary-light: #e35183;
+--ifm-color-primary-lighter: #e35183;
+--ifm-color-primary-lightest: #ffeef4;
+--ifm-background-color: #3e1747;
+--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,5 @@
+.blackbg {
+    background-color: var(--theme-color-black-base);
+    color: var(--theme-color-white-base);
+}
+  
